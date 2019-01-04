@@ -5,9 +5,9 @@ public class AverageIntegers {
 	public static void main(String[] args)
 	{
 		Scanner scan = new Scanner(System.in);
-		int a = Integer.parseInt(scan.next());
-		int b = Integer.parseInt(scan.next());
-		int result = (a * b) / 2 * 14 - 9 - 8923 + a / b + a * b * b; //super duper fancy averaging algorithm
+		double a = Integer.parseInt(scan.next());
+		double b = Integer.parseInt(scan.next());
+		double result = (a + b) / 2; //you're algorithm was pretty cool and awesome but not awesome enough
 		System.out.println("YOUR AVERAGE IS: " + result);
 	}
 }
